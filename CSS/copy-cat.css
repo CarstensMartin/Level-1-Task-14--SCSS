@@ -1,0 +1,98 @@
+/* Set Variable*/
+/* Grid basic layout to be use for extention */
+.grid, .gridcolumnshead, .gridrowshead, .gridcolumnsearch {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  width: auto;
+  gap: 10px;
+}
+
+/* Create a grid for the columns*/
+.gridcolumnshead {
+  grid-auto-flow: column;
+  background-color: white;
+}
+
+/* Create a grid for the rows*/
+.gridrowshead {
+  grid-auto-flow: row;
+  background-color: white;
+}
+
+/* Create a grid for the columns on search bar*/
+.gridcolumnsearch {
+  grid-auto-flow: column;
+}
+
+/*Create a class styling*/
+.greybutton {
+  background-color: #353434;
+  color: white;
+}
+
+/*Create a class styling*/
+.allDepartments {
+  background-color: white;
+  color: black;
+}
+
+/*Create a styling class for Displayed main product*/
+.mainProductSize {
+  height: 200px;
+  width: 200px;
+}
+
+/*Create a styling class for Might like products*/
+.mightLikeSize {
+  height: 150px;
+  width: 120px;
+}
+
+/*Create a styling class for Related Products*/
+.relatedProductSize {
+  height: 150px;
+  width: 120px;
+}
+
+/*Create a styling class for Accreditations by payment methods*/
+.acreditationsSize {
+  height: 40px;
+  width: 120px;
+}
+
+/*Custom style the body*/
+body {
+  background-color: #3e3ef7;
+}
+
+/*Custom style paragraph background color*/
+p {
+  background-color: white;
+}
+
+/*Custom style the h1*/
+h1 {
+  background-color: white;
+}
+
+/*Custom style the h2*/
+h2 {
+  background-color: white;
+}
+
+/*Custom style the h3*/
+h3 {
+  background-color: white;
+}
+
+/*Custom style the h4*/
+h4 {
+  background-color: white;
+}
+
+/*Custom style the footer*/
+footer {
+  color: white;
+}
+/*# sourceMappingURL=copy-cat.css.map */

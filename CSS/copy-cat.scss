@@ -1,0 +1,36 @@
+@import "copy-catclass";
+
+/*Custom style the body*/
+body{
+    background-color:$secondarycolor;
+}
+
+/*Custom style paragraph background color*/
+p{
+    background-color:$primarycolor;
+}
+
+/*Custom style the h1*/
+h1{
+    background-color:$primarycolor;
+}
+
+/*Custom style the h2*/
+h2{
+    background-color:$primarycolor;
+}
+
+/*Custom style the h3*/
+h3{
+    background-color:$primarycolor;
+}
+
+/*Custom style the h4*/
+h4{
+    background-color:$primarycolor;
+}
+
+/*Custom style the footer*/
+footer{
+    color:$primarycolor;
+}
